@@ -13,7 +13,7 @@ npm install @echogarden/dectalk-wasm
 ## Usage
 
 ```ts
-import { synthesize, DecTalkVoice } from './DecTalk.js'
+import { synthesize, DecTalkVoice } from '@echogarden/dectalk-wasm'
 
 const simpleText = 'Hello World! How are you doing today?'
 

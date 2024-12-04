@@ -11,6 +11,9 @@
 		"TTS",
 		"Text-To-Speech"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/echogarden-project/dectalk-wasm"

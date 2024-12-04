@@ -1,0 +1,41 @@
+{
+	"name": "@echogarden/dectalk-wasm",
+	"version": "0.1.0",
+	"description": "WebAssembly port of the DECtalk speech synthesizer",
+	"author": "Rotem Dan",
+	"license": "MIT",
+	"keywords": [
+		"DECtalk",
+		"Speech Synthesier",
+		"Speech Synthesis",
+		"TTS",
+		"Text-To-Speech"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/echogarden-project/dectalk-wasm"
+	},
+	"bugs": {
+		"url": "https://github.com/echogarden-project/dectalk-wasm/issues"
+	},
+	"private": true,
+	"main": "./dist/Exports.js",
+	"type": "module",
+	"files": [
+		"dist",
+		"src",
+		"wasm",
+		"tsconfig.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"test": "node dist/Test.js"
+	},
+	"dependencies": {
+		"wasm-heap-manager": "^0.1.0"
+	},
+	"devDependencies": {
+		"@types/node": "^22.8.6"
+	}
+}

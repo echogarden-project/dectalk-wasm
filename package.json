@@ -18,7 +18,6 @@
 	"bugs": {
 		"url": "https://github.com/echogarden-project/dectalk-wasm/issues"
 	},
-	"private": true,
 	"main": "./dist/DecTalk.js",
 	"type": "module",
 	"files": [
